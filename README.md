@@ -2,7 +2,7 @@
 
 ## Alumnos
  1. Jose Luis
- 3. Oscar
+ 2. Oscar
 
 ### Secciones
  - [ ] Cabecera & foto - Jose Luis
