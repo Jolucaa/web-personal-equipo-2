@@ -1,0 +1,52 @@
+@keyframes color-animation {
+    0% {background-color: #00bcd4;}
+    50%{background-color: #00bcd4;}
+    100%{background-color: #00bcd4;}
+}
+
+.container-bar{
+    display: flex;
+    box-shadow:0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.animation-bar {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+    border-radius: 0 0 15px 15px;
+    animation-name: color-animation;
+    background-color: #00bcd4;
+}
+
+#html {
+
+    animation-duration: 2S;
+    animation-iteration-count: revert;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+#css3{
+
+    animation-duration: 7S;
+    animation-iteration-count: revert;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#spring{
+
+    animation-duration: 1S;
+    animation-iteration-count: revert;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#java{
+
+    animation-duration: 4S;
+    animation-iteration-count: revert;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
