@@ -8,5 +8,5 @@
 ### Secciones
  - [ ] Cabecera & foto - Yessica
  - [ ] the two Section Skill  -  Jose Luis
- - [ ] Card Section & footer -  Oscar
+ - [X] Card Section & footer -  Oscar
  - [ ] Form section - Staff
