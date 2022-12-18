@@ -2,11 +2,10 @@
 
 ## Alumnos
  1. Jose Luis
- 2. Yessica
  3. Oscar
 
 ### Secciones
- - [ ] Cabecera & foto - Yessica
+ - [ ] Cabecera & foto - Jose Luis
  - [ ] the two Section Skill  -  Jose Luis
- - [ ] Card Section & footer -  Oscar
- - [ ] Form section - Staff
+ - [x] Card Section & footer -  Oscar
+ - [x] Form section - Oscar
