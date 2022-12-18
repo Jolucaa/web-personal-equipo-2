@@ -1,0 +1,6 @@
+.section-flex-2{
+    display:flex;
+    flex-direction:row;
+    align-items: stretch;
+    border: 1px black dotted;
+}
