@@ -1,52 +1,73 @@
-@keyframes color-animation {
-    0% {background-color: #00bcd4;}
-    50%{background-color: #00bcd4;}
-    100%{background-color: #00bcd4;}
+:root {
+    var(--size-width,0%);
 }
 
-.container-bar{
-    display: flex;
-    box-shadow:0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+@keyframes color-animation {
+    0% {background-color: #00bcd4;width: var(--size-width);}
+    50%{background-color: #00bcd4;width: var(--size-width);}
+    100%{background-color: #00bcd4;width: var(--size-width);}
 }
 
 .animation-bar {
-    width: 100%;
-    height: 100%;
-    border: 2px black solid;
-    border-radius: 0 0 15px 15px;
+    --size-width:0;
+    width: var(--size-width);
+    height: 1rem;
     animation-name: color-animation;
-    background-color: #00bcd4;
+    background-color: grey;
+    animation-fill-mode: forwards;
+    animation-iteration-count: revert;
+    animation-delay: 2s;
+    margin: auto 0;
+    transition: width 10s;
 }
 
 #html {
-
-    animation-duration: 2S;
-    animation-iteration-count: revert;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-
+    animation-duration: 2s;
+    --size-width:100%;
+    transition: width 10s;
 }
 
 #css3{
-
-    animation-duration: 7S;
-    animation-iteration-count: revert;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+    animation-duration: 7s;
+    --size-width:25%
 }
 
 #spring{
-
-    animation-duration: 1S;
-    animation-iteration-count: revert;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    --size-width:33%
 }
 
 #java{
+    animation-duration: 4s;
+    --size-width:%67
+}
 
-    animation-duration: 4S;
-    animation-iteration-count: revert;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+.box-bar{
+    width: 100%;
+    height: 1rem;
+    margin: auto 0;
+    box-shadow:0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    background-color: grey;
+    border: 2px black solid;
+}
+
+#lalal {
+    animation-duration: 2s;
+    --size-width:100%;
+    transition: width 10s;
+}
+
+#cositas{
+    animation-duration: 7s;
+    --size-width:25%
+}
+
+#setas{
+    animation-duration: 1s;
+    --size-width:33%
+}
+
+#amigitos{
+    animation-duration: 4s;
+    --size-width:%67
 }
