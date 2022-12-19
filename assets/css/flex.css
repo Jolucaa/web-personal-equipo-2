@@ -1,6 +1,20 @@
-.section-flex-2{
+main{
+    margin: 10vw auto;
+    max-width: 70vw;
+}
+.flex-row{
     display:flex;
     flex-direction:row;
-    align-items: stretch;
-    border: 1px black dotted;
+    align-items: center;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.container-bar{
+    display: flex;
+    flex-direction: row;
 }
