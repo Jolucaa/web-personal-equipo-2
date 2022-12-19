@@ -2,6 +2,7 @@ main{
     margin: 10vw auto;
     max-width: 70vw;
 }
+
 .flex-row{
     display:flex;
     flex-direction:row;
